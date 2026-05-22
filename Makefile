@@ -1,16 +1,19 @@
-CC = gcc
-CFLAGS = -Wall -g
-SRC = src/temp_converter.c
-OBJ = temp_converter.o
-BIN = bin/temp_converter
+CC=gcc
+CFLAGS=-Wall -Iinclude
 
-all: $(BIN)
+SRC=src/temp_converter.c src/converter.c
+OUT=bin/temp_converter
 
-$(BIN): $(OBJ)
-    $(CC) $(OBJ) -o $(BIN)
+all:
+	mkdir -p bin
+	$(CC) $(SRC) $(CFLAGS) -o $(OUT)
 
-temp_converter.o: src/temp_converter.c
-    $(CC) $(CFLAGS) -c src/temp_converter.c -o temp_converter.o
+run: all
+	./$(OUT)
+
+test:
+	$(CC) tests/test_converter.c src/converter.c $(CFLAGS) -o bin/test
+	./bin/test
 
 clean:
-    rm -f $(OBJ) $(BIN)
+	rm -rf bin/*
