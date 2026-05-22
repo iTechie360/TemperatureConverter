@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-// Function to convert Celsius to Fahrenheit
-float celsius_to_fahrenheit(float celsius) {
-    return (celsius * 9.0 / 5.0) + 32.0;
-}
+#include "../include/converter.h"
 
 int main() {
     float celsius, fahrenheit;
