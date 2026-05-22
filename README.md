@@ -3,6 +3,8 @@
 
 This project is a simple command-line application that converts temperatures from Celsius to Fahrenheit.
 
+Engineer - Jesse Jim (https://github.com/IAmJesseJim)
+
 ## Files
 
 - `src/temp_converter.c`: Source code for the temperature conversion.
