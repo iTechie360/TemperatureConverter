@@ -1,9 +1,9 @@
-# Temperature Converter in C By Jesse Jimmy Mafusa (iTechie 360)
+# Temperature Converter in C By Jesse Jimmy Mafusa @ iTechie 360
 # Copyright (C) 2025 iTechie 360
 
 This project is a simple command-line application that converts temperatures from Celsius to Fahrenheit.
 
-Engineer - Jesse Jim (https://github.com/IAmJesseJim)
+Software Engineer - Jesse Jim (https://github.com/IAmJesseJim)
 
 ## Files
 
