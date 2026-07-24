@@ -3,8 +3,9 @@
 
 This project is a simple command-line application that converts temperatures from Celsius to Fahrenheit.
 
-Software Engineer - GitHub [Jesse Jim] (https://github.com/IAmJesseJim)
-                  - Portfolio (https://iamjessejim.vercel.app)
+Software Engineer | Jesse Jim
+- GitHub (https://github.com/IAmJesseJim)
+- Portfolio (https://iamjessejim.vercel.app)
 
 ## Files
 
